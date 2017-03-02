@@ -9,8 +9,6 @@ share_text: "Planning for 7.0"
 
 If you didn't know already, we're planning on releasing a 7.0 version soon! I'd like to go over some notable changes and a few things we are still working out!
 
-> For more specific changes, please check out our upgrade guide (will be updated)!
-
 ## 😎 Awesome Changes
 
 ### [#4315](https://github.com/babel/babel/issues/4315) Drop support for unmaintained Node versions: 0.10, 0.12, 5
@@ -182,4 +180,3 @@ If we're going to think about removing the Stage X presets, why not the ES20XX p
 > It's annoying making a yearly preset (extra package/dependency, issues with npm package squatting unless we do scoped packages)
 
 Developers shouldn't even need to make the decision of what yearly preset to use? If we drop/deprecate these presets then everyone can use [babel-preset-env](https://github.com/babel/babel-preset-env) instead which will already update as the spec changes.
-
